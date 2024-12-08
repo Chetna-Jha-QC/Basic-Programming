@@ -8,3 +8,9 @@ function isPrime(num) {
 }
 
 module.exports = { isPrime };  // Export the function to use it in other files
+
+function evenOdd(num) {
+    return num % 2 === 0;
+}
+
+module.exports = { isPrime, evenOdd };  // Export both functions
